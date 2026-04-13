@@ -1,0 +1,12 @@
+[
+  {"question":"2 + 2 = ?","options":["2","3","4","5"],"answer":2},
+  {"question":"Capital of India?","options":["Delhi","Mumbai","Chennai","Kolkata"],"answer":0},
+  {"question":"Which language runs in browser?","options":["Java","C","Python","JavaScript"],"answer":3},
+  {"question":"HTML stands for?","options":["Hyper Text Markup Language","High Text Machine Language","Hyper Tool Markup Language","None"],"answer":0},
+  {"question":"CSS is used for?","options":["Logic","Styling","Database","Server"],"answer":1},
+  {"question":"Node.js is?","options":["Frontend","Backend","Database","Browser"],"answer":1},
+  {"question":"Which is not a programming language?","options":["Java","HTML","Python","C++"],"answer":1},
+  {"question":"Which company made JavaScript?","options":["Microsoft","Netscape","Google","Apple"],"answer":1},
+  {"question": "Which tag is used for heading?","options": ["&lt;p&gt;", "&lt;h1&gt;", "&lt;div&gt;", "&lt;span&gt;"], "answer": 1},
+  {"question":"Which method is used to fetch data?","options":["getData()","fetch()","load()","request()"],"answer":1}
+]

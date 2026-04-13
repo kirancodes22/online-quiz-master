@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+  <!-- START SCREEN -->
+  <div id="start-screen">
+    <h1>⚡ QuizMasterPro</h1>
+    <p>Test your knowledge. Beat the clock.</p>
+
+    <input type="text" id="username" placeholder="Enter your name">
+
+    <button onclick="startQuiz()">Start Quiz →</button>
+
+    <div class="stats">
+      <span id="attempts">0 Attempts</span>
+      <span id="topScore">Top Score: 0</span>
+      <span>Questions: 10</span>
+    </div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+<div id="quiz-screen" style="display:none;">
+  <p id="progress"></p>
+  <p id="timer">Time: 10</p>  <!-- ADD THIS -->
+  <div id="quiz"></div>
+</div>
+
+  <!-- RESULT SCREEN -->
+  <div id="result-screen" style="display:none;">
+    <h2>🎉 Finished!</h2>
+    <p id="finalScore"></p>
+    <button onclick="location.reload()">Play Again</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
